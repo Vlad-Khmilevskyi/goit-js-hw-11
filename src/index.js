@@ -1,22 +1,11 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-// import '~node_modules/modern-normalize/modern-normalize.css';
 
 import { createMarkup } from './app/createMarkup';
 import { PixabayAPI } from './app/PixabayAPI';
 import { refs } from './app/refs';
-// import { notifyInit } from './app/notifyInit';
-
-const notifyInit = {
-    width: '250px',
-    position: 'right-bottom',
-    distance: '20px',
-    timeout: 2500,
-    opacity: 0.8,
-    fontSize: '16px',
-    borderRadius: '50px',
-};
+import { notifyInit } from './app/notifyInit';
 
 const modalLightboxGallery = new SimpleLightbox('.gallery a', {
     captionDelay: 250,

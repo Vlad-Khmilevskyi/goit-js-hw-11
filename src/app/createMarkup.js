@@ -1,5 +1,3 @@
-// import * as bootstrap from 'bootstrap';
-
 export function createMarkup(photos) {
   return photos
     .map(
@@ -40,8 +38,3 @@ export function createMarkup(photos) {
     )
     .join('');
 }
-
-
-{/* <button type="button" class="circle" onclick="style.boxShadow='inset -1px -1px 3px white, inset 1px 1px 3px rgba(0, 0, 0, 0.1)'">
-  <i class="bi bi-heart-fill" onclick="style.color='#ff0000'"></i>
-</button> */}
